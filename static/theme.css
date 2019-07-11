@@ -52,7 +52,7 @@
   --general: var(--tag8);
   /* Jumbo section */
   --jumbo-logo-width: 400px;
-  --jumbo-overlay-opacity: 0.6;
+  --jumbo-overlay-opacity: 0.2;
   --jumbo-overlay-transition: 0.5s;
   /* Partners */
   --partner-support-height: 60px;
@@ -465,7 +465,7 @@ a.social {
     left: 0;
     opacity: 1; }
     .jumbo #jumbo-overlay.show {
-      opacity: var(--jumbo-overlay-opacity, 0.6); }
+      opacity: var(--jumbo-overlay-opacity, 0.2); }
   .jumbo .inner-wrapper {
     max-width: 75vw; }
     .jumbo .inner-wrapper .inner {
