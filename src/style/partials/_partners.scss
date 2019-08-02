@@ -99,6 +99,16 @@
   }
 }
 
+.partners-group.partner-lanyard .fancy {
+  font-size: 1.33em;
+  color: var(--color-platium);
+
+  span:before, span:after {
+    top: 20%;
+    border-bottom: 1px solid currentColor;
+  }
+}
+
 .partners-group.partner-gold .fancy {
   font-size: 1.5em;
   color: var(--color-gold);
