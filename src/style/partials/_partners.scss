@@ -48,7 +48,9 @@
   flex-basis: 320px;
 }
 
-.partners-group.partner-silver ul li, .partners-group.partner-bronze ul li {
+.partners-group.partner-silver ul li, 
+.partners-group.partner-bronze ul li, 
+.partners-group.partner-lanyard ul li {
   height: var(--partner-silver-height);
   flex-basis: 200px;
 }
@@ -112,7 +114,7 @@
   color: var(--color-gold);
 
   span:before, span:after {
-    top: 20%;
     border-bottom: 1px solid currentColor;
+    border-top: 1px solid currentColor;
   }
 }
