@@ -38,6 +38,11 @@
   }
 }
 
+.partners-group.partner-partner ul li {
+  height: var(--partner-partner-height);
+  flex-basis: 320px;
+}
+
 .partners-group.partner-coffee ul li {
   height: var(--partner-coffee-height);
   flex-basis: 320px;
@@ -122,6 +127,16 @@
 .partners-group.partner-coffee .fancy {
   font-size: 1.33em;
   color: var(--color-gold);
+
+  span:before, span:after {
+    border-bottom: 1px solid currentColor;
+    border-top: 1px solid currentColor;
+  }
+}
+
+.partners-group.partner-partner .fancy {
+  font-size: 1.33em;
+  color: var(--color-black);
 
   span:before, span:after {
     border-bottom: 1px solid currentColor;
